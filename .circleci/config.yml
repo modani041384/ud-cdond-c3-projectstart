@@ -33,7 +33,6 @@ jobs:
           command: |
              cd backend
              npm install
-             npm audit fix
              npm run build
              exit 1
       - save_cache:
